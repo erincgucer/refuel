@@ -1,0 +1,9 @@
+.root {
+    -fx-max-value:  red;
+    -fx-min-value:  green;
+    -fx-middle-value:   yellow;
+}
+
+.default-color0.chart-bar { -fx-bar-fill: -fx-max-value; }
+.default-color1.chart-bar { -fx-bar-fill: -fx-min-value; }
+.default-color2.chart-bar { -fx-bar-fill: -fx-middle-value; }
